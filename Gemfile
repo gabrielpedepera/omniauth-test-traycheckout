@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
-
-gem 'rails', '~> 4.0.0'
+gem 'rails'
 
 gem 'omniauth'
+gem 'omniauth-traycheckout', '0.0.1'
 
 group :development do
   gem 'sqlite3'
+  gem 'dotenv-rails'
 end
 
 group :production do
