@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-OmniAuthTestHarness::Application.load_tasks
+OmniauthTestTraycheckout::Application.load_tasks

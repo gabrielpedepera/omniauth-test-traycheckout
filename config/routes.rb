@@ -1,4 +1,4 @@
-OmniAuthTestHarness::Application.routes.draw do
+OmniauthTestTraycheckout::Application.routes.draw do
   root 'sessions#index'
 
   match '/auth/:provider/callback', to: 'sessions#create', via: [:get, :post]

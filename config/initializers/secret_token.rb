@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-OmniAuthTestHarness::Application.config.secret_key_base = '837ba2873c44bafbc8561783c90118417afec061b5b82e77d08136a54f1afc6ea61c7a3ab3ab1ff01378d1eb127c1e846497ec356ef43af2e5eadda503dc68d9'
+OmniauthTestTraycheckout::Application.config.secret_key_base = ENV['SECRET_TOKEN']
