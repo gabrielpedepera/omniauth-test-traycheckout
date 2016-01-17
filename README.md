@@ -18,4 +18,4 @@ Start this test application:
 $ rails server
 ```
 
-This application is available at [Heroku](http://www.heroku.com/).
+This application is available at [Heroku](http://omniauth-test-traycheckout.herokuapp.com/).
